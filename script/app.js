@@ -6,7 +6,6 @@ document.getElementById("kitKat-btn").addEventListener('click', function(){
 });
 
 document.getElementById("rose-btn").addEventListener('click', function(){
-    // const quantity = document.getElementById("rose-quantity").value;
     const quantity = getInputValue("rose-quantity")
     const roseCost = quantity * 100;
     setInnerText("rose", roseCost);
@@ -14,7 +13,6 @@ document.getElementById("rose-btn").addEventListener('click', function(){
 });
 
 document.getElementById("diary-btn").addEventListener("click", function(){
-    // const quantity = document.getElementById("diary-quantity").value;
     const quantity = getInputValue("diary-quantity");
     const diaryCost = quantity * 300;
     setInnerText("diary", diaryCost)
